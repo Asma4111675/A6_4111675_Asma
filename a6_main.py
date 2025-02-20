@@ -32,7 +32,6 @@ for epoch in range(num_epochs):
 
     print(f" Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(train_loader):.4f}")
 
-# التقييم
 model.eval()
 correct = 0
 total = 0
