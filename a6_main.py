@@ -1,6 +1,6 @@
 import torch
 import torch.optim as optim
-from a6_model_[YOUR-FIRST-NAME] import TinyImageNetCNN
+from a6_model_Asma import TinyImageNetCNN
 from a6_data import train_loader, test_loader, device
 
 
@@ -13,7 +13,7 @@ criterion = torch.nn.NLLLoss()
 
 optimizer = optim.Adam(model.parameters(), lr=0.0001)
 
-num_epochs = 50  
+num_epochs = 1000  
 
 for epoch in range(num_epochs):
     model.train()
